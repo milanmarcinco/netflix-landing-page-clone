@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+		<link rel="icon" href="./assets/netflix-icon.png">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Milan Marcinco">
+
+		<!-- External stylesheet link -->
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+		<!-- Inter font import -->
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;450;500;550;600;700&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		
+		<!-- Welcome header -->
+		<header id="welcome" class="border-bottom">
+			
+			<!-- Navbar -->
+			<nav id="navbar">
+				<a id="logo-container" href="#">
+					<svg  id="netflix-logo" height="676" width="2500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 276.742"><path d="M140.803 258.904c-15.404 2.705-31.079 3.516-47.294 5.676L44.051 119.724v151.073C28.647 272.418 14.594 274.58 0 276.742V0h41.08l56.212 157.021V0h43.511zm85.131-157.558c16.757 0 42.431-.811 57.835-.811v43.24c-19.189 0-41.619 0-57.835.811v64.322c25.405-1.621 50.809-3.785 76.482-4.596v41.617l-119.724 9.461V0h119.724v43.241h-76.482zm237.284-58.104h-44.862V242.15c-14.594 0-29.188 0-43.239.539V43.242h-44.862V0H463.22l-.002 43.242zm70.266 55.132h59.187v43.24h-59.187v98.104h-42.433V0h120.808v43.241h-78.375zm148.641 103.507c24.594.539 49.456 2.434 73.51 3.783v42.701c-38.646-2.434-77.293-4.863-116.75-5.676V0h43.24zm109.994 49.457c13.783.812 28.377 1.623 42.43 3.242V0h-42.43zM1024 0l-54.863 131.615L1024 276.742c-16.217-2.162-32.432-5.135-48.648-7.838l-31.078-79.994-31.617 73.51c-15.678-2.705-30.812-3.516-46.484-5.678l55.672-126.75L871.576 0h46.482l28.377 72.699L976.705 0H1024z" fill="#d81f26"/></svg>
+				</a>
+
+				<a class="btn btn-small" href="#">Sign In</a>
+			</nav>
+
+			<div id="wrapper">
+				<!-- Motto -->
+				<div id="motto">
+					<h1>Unlimited movies, TV shows, and more.</h1>
+
+					<h2>Watch anywhere. Cancel anytime.</h2>
+				</div>
+
+				<!-- Email form -->
+				<form class="email-form">
+					<h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+					<div class="input-btn-wrapper">
+						<input class="email-input" type="email" name="user-email" required minlength="5" maxlength="25" placeholder="Email address" value="">
+						<button class="btn btn-large">
+							TRY 30 DAYS FREE
+							<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"/></svg></span>
+						</button>
+					</div>
+				</form>
+			</div>
+
+		</header>
+
+
+		<!-- Showcase sections -->
+
+			<!-- Enjoy on your TV. -->
+		<section id="showcase-section-1" class="border-bottom showcase-section">
+			<div class="content-wrapper">
+				<div class="caption-wrapper">
+					<h1>Enjoy on your TV.</h1>
+					<h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
+				</div>
+				<div class="live-image-wrapper">
+					<img id="img-1" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+					<video id="vid-1" class="vid" autoplay playsinline muted loop>
+						<source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4">
+					</video>
+				</div>
+			</div>
+		</section>
+
+			<!-- Download your shows to watch offline. -->
+		<section id="showcase-section-2" class="border-bottom showcase-section">
+			<div class="content-wrapper">
+				<div class="live-image-wrapper">
+					<img id="img-2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+				</div>
+				<div class="caption-wrapper">
+					<h1>Download your shows to watch offline.</h1>
+					<h2>Save your favorites easily and always have something to watch.</h2>
+				</div>
+			</div>
+		</section>
+
+			<!-- Watch everywhere. -->
+		<section id="showcase-section-3" class="border-bottom showcase-section">
+			<div class="content-wrapper">
+				<div class="caption-wrapper">
+					<h1>Watch everywhere.</h1>
+					<h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</h2>
+				</div>
+				<div class="live-image-wrapper">
+					<img id="img-3" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png">
+					<video id="vid-3" class="vid" autoplay playsinline muted loop>
+						<source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" type="video/mp4">
+					</video>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- FAQ section -->
+		<section id="faq-section" class="border-bottom">
+			
+			<h1>Frequently Asked Questions</h1>
+
+			<!-- FAQ cards -->
+
+			<div id="faq-card-1" class="faq-card">
+
+				<button class="card-btn">
+					<h2>What is Netflix?</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z"/></svg>
+				</button>
+
+				<article class="card card-closed">
+					<h2>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.
+					<br>
+					<br>
+					You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</h2>
+				</article>
+
+			</div>
+
+			<div id="faq-card-2" class="faq-card">
+
+				<button class="card-btn">
+					<h2>How much does Netflix cost?</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z"/></svg>
+				</button>
+
+				<article class="card card-closed">
+					<h2>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from EUR7.99 to EUR11.99 a month. No extra costs, no contracts.</h2>
+				</article>
+				
+			</div>
+			<div id="faq-card-3" class="faq-card">
+
+				<button class="card-btn">
+					<h2>Where can I watch?</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z"/></svg>
+				</button>
+
+				<article class="card card-closed">
+					<h2>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+					<br>
+					<br>
+					You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</h2>
+				</article>
+				
+			</div>
+			<div id="faq-card-4" class="faq-card">
+
+				<button class="card-btn">
+					<h2>How do I cancel?</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z"/></svg>
+				</button>
+
+				<article class="card card-closed">
+					<h2>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</h2>
+				</article>
+				
+			</div>
+			<div id="faq-card-5" class="faq-card">
+
+				<button class="card-btn">
+					<h2>What can I watch on Netflix?</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z"/></svg>
+				</button>
+
+				<article class="card card-closed">
+					<h2>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want. Join free for 30 days to see everything Netflix has to offer.</h2>
+				</article>
+				
+			</div>
+			<div id="faq-card-6" class="faq-card">
+
+				<button class="card-btn">
+					<h2>How does the free trial work?</h2>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M376 232H216V72c0-4.42-3.58-8-8-8h-32c-4.42 0-8 3.58-8 8v160H8c-4.42 0-8 3.58-8 8v32c0 4.42 3.58 8 8 8h160v160c0 4.42 3.58 8 8 8h32c4.42 0 8-3.58 8-8V280h160c4.42 0 8-3.58 8-8v-32c0-4.42-3.58-8-8-8z"/></svg>
+				</button>
+
+				<article class="card card-closed">
+					<h2>Try us free for 30 days! If you enjoy your Netflix trial, do nothing and your membership will automatically continue for as long as you choose to remain a member. Cancel anytime before your trial ends and you won’t be charged. There’s no complicated contract, no cancellation fees, and no commitment. Cancel online anytime, 24 hours a day.</h2>
+				</article>
+				
+			</div>
+
+			<!-- Email form -->
+
+			<div id="wrapper">
+				<form class="email-form">
+					<h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+					<div class="input-btn-wrapper">
+						<input class="email-input" type="email" name="user-email" required minlength="5" maxlength="25" placeholder="Email address" value="">
+						<button class="btn btn-large">
+							TRY 30 DAYS FREE
+							<span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"/></svg></span>
+						</button>
+					</div>
+				</form>
+			</div>
+
+		</section>
+
+
+		<!-- Footer -->
+
+		<footer>
+			
+			<a class="footer-link big-link footer-text-style" href="#">Questions? Contact us.</a>
+			<ul id="footer-links">
+				<li><a href="" class="footer-text-style footer-link tiny-link">FAQ</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Help Center</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Account</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Media Center</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Investor Relations</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Jobs</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Ways to Watch</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Terms of Use</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Privacy</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Cookie Preferences</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Corporate Information</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Contact Us</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Speed Test</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Legal Notices</a></li>
+				<li><a href="" class="footer-text-style footer-link tiny-link">Netflix Originals</a></li>
+			</ul>
+			<h5 class="footer-text-style">Netflix</h5>
+
+		</footer>
+
+
+		<!-- External script link -->
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
